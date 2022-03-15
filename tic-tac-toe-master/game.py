@@ -8,6 +8,7 @@ class TicTacToe():
         self.current_winner = None
         
 
+        
     @staticmethod
     def make_board():
         return [' ' for _ in range(9)]
